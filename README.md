@@ -21,7 +21,7 @@ lambda if it had a bad return status.
 ## rc.lua
 Configuration for the Awesome window manager.
 - Loads and installs a volume control script
-[made by deficient](https://github.com/deficient/volume-control)
+[made by deficient](https://github.com/deficient/volume-control).
 - loads my custom Beautiful theme (theme.lua).
 - Only uses 4 of the default layout options (because 16 is too much!).
 - Sets urxvt as the terminal opened by Awesome by default.

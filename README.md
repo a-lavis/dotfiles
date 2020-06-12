@@ -6,6 +6,7 @@ I use this to customize the look of urxvt.
 - Solarized colors
 - Firacode font
 - Removed scrollbar
+- Disabled bold font
 
 ### .vimrc
 I've enabled pathogen and the solarized colorscheme for vim.
@@ -13,11 +14,18 @@ Also some small tweaks on the default .vimrc
 
 ### .zshrc
 Enabled oh-my-zsh and imported my own theme (mylambda.zsh-theme).
+Added some plugins, including...
+
+### zsh-dircolors-solarized
+A fork of joel-porquet's
+[repository](https://github.com/joel-porquet/zsh-dircolors-solarized)
+but with the latest updates to
+[dircolors-solarized](https://github.com/seebi/dircolors-solarized).
 
 ### mylambda.zsh-theme
 A very clean and simple oh-my-zsh theme.
 - Displays the full name of the working directory.
-- Displays a blue lambda if last process had a good return status, and a red
+- Displays a green lambda if last process had a good return status, and a red
 lambda if it had a bad return status.
 - Shows information about git if you are in a git repository.
 
